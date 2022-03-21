@@ -1,5 +1,3 @@
-package br.inatel.myrestapi.springapi;
-
 import java.util.HashMap;
 import java.util.Map;
 
