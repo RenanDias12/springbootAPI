@@ -60,7 +60,7 @@ public class CursoControllerTest {
                 .uri("/cursos/{id}", cursoExistente.getId())
                 .bodyValue(cursoExistente)
                 .exchange()
-                .expectStatus().isOk()
+                .expectStatus().isAccepted()
                 .expectBody(Curso.class)
                 .returnResult().getResponseBody();
 
